@@ -12,6 +12,9 @@ import ImprovedCounter from './useState/improved-counter'
 import Parent from './forms-and-parent/parent-chiled/Parent'
 import Checkbox from './forms-and-parent/Checkbox'
 import SurveyForm from './forms-and-parent/Form'
+import Massage from './data-massaging/massage'
+import VideoPlayer from './useRef/VideoPlayer'
+import ImageToggle from './useRef/Images'
 
 
 
@@ -30,7 +33,10 @@ function App() {
       {/* <ImprovedCounter/> */}
       {/* <Parent/> */}
       {/* <Checkbox/> */}
-      <SurveyForm/>
+      {/* <SurveyForm/> */}
+      {/* <Massage/> */}
+      {/* <VideoPlayer/> */}
+      <ImageToggle/>
       </div>
     </>
   )
