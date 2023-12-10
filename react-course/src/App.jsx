@@ -21,6 +21,10 @@ import ChangingBox from './useEffect/ChangingBox'
 import Spinner from './useEffect/Spinner'
 import InputFocus from './useEffect/InputFocus'
 import Todo from './Todo/Todo'
+import Avatar from './API/Avatar'
+import { GiftsProvider } from './context/gifts-provider'
+import Grandfather from './context/Grandfather'
+import Main from './context/mood-change/Main'
 
 function App() {
   // for spinner
@@ -71,7 +75,13 @@ function App() {
       )} */}
 
       {/* <InputFocus/> */}
-      <Todo/>
+      {/* <Todo/> */}
+      {/* <Avatar/> */}
+      {/* <GiftsProvider>
+      <Grandfather />
+    </GiftsProvider> */}
+
+    {/* <Main/> */}
       </div>
     </>
   )
