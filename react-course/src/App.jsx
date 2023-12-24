@@ -25,7 +25,7 @@ import Avatar from './API/Avatar'
 import { GiftsProvider } from './context/gifts-provider'
 import Grandfather from './context/Grandfather'
 import Main from './context/mood-change/Main'
-
+import CounterComponent from './custom-hooks/counter/CounterComponent'
 function App() {
   // for spinner
   // const [timerActive, setTimerActive] = useState(true);
@@ -82,6 +82,14 @@ function App() {
     </GiftsProvider> */}
 
     {/* <Main/> */}
+
+    <div>
+      <h2>First Counter</h2>
+      <CounterComponent initialNum={0} />
+      
+      <h2>Second Counter</h2>
+      <CounterComponent initialNum={10} />
+    </div>
       </div>
     </>
   )
